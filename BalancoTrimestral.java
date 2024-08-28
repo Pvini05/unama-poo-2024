@@ -6,5 +6,7 @@ class BalancoTrimestral{
 
         int gastosTrimestre = gastoJaneiro + gastoFevereiro + gastoMarco;
         System.out.println(gastosTrimestre);
+        int media = gastosTrimestre/ 3;
+        System.out.println(media);
     }
 }
